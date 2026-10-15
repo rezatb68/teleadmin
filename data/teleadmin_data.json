@@ -1,0 +1,409 @@
+{
+  "activeBotId": "bot-1",
+  "bots": [
+    {
+      "id": "bot-1",
+      "name": "ربات iRanFree",
+      "purpose": "تحلیل تکنیکال بازارهای مالی و اخبار چارت",
+      "color": "emerald",
+      "telegram": {
+        "botToken": "8497611281:AAEdavQIeDC9L9-NCX-_yShPOPBt_5PwWxk",
+        "channelId": "@Fxbours",
+        "botName": "PapionShop",
+        "botUsername": "@Papshopahw_bot",
+        "channelTitle": "iRanFree",
+        "channelUsername": "@Fxbours",
+        "isValidated": true,
+        "canPost": false,
+        "lastChecked": "2026-10-14T13:01:53.015Z"
+      },
+      "scheduler": {
+        "enabled": true,
+        "mode": "interval",
+        "intervalMinutes": 30,
+        "specificHours": [
+          "09:00",
+          "13:00",
+          "17:00",
+          "21:00"
+        ],
+        "maxPostsPerRun": 2,
+        "lastRunTime": "2026-10-14T13:26:20.569Z",
+        "nextRunTime": "2026-10-14T14:04:34.301Z"
+      },
+      "sources": [
+        {
+          "id": "src-1",
+          "name": "TechCrunch News",
+          "url": "https://techcrunch.com/feed/",
+          "category": "فناوری و استارتاپ",
+          "enabled": false,
+          "lastFetched": null,
+          "fetchCount": 0
+        },
+        {
+          "id": "src-2",
+          "name": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "category": "تکنولوژی و گجت",
+          "enabled": false,
+          "lastFetched": "2026-10-14T13:07:36.414Z",
+          "fetchCount": 20
+        },
+        {
+          "id": "src-3",
+          "name": "CoinDesk Crypto",
+          "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "category": "کریپتو و مالی",
+          "enabled": false,
+          "lastFetched": null,
+          "fetchCount": 0
+        },
+        {
+          "id": "src-4",
+          "name": "Wired AI & Tech",
+          "url": "https://www.wired.com/feed/category/ai/latest/rss",
+          "category": "هوش مصنوعی",
+          "enabled": false,
+          "lastFetched": null,
+          "fetchCount": 0
+        },
+        {
+          "id": "src-5",
+          "name": "BBC World News",
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "category": "اخبار جهان",
+          "enabled": false,
+          "lastFetched": null,
+          "fetchCount": 0
+        },
+        {
+          "id": "src-1791982795855",
+          "name": "تریدینگ‌ویو (TradingView Ideas)",
+          "url": "https://www.tradingview.com/ideas/",
+          "category": "تحلیل تکنیکال و مارکت",
+          "enabled": true,
+          "lastFetched": "2026-10-14T13:23:45.235Z",
+          "fetchCount": 24
+        }
+      ],
+      "template": {
+        "tone": "journalistic",
+        "headerEmoji": "⚡️",
+        "showTitle": true,
+        "showSummary": true,
+        "showSourceLink": false,
+        "showDate": true,
+        "showHashtags": true,
+        "customSignature": "🆔 @Fxbours\n🤖 تهیه شده توسط رضا",
+        "formatMode": "HTML",
+        "postWithImage": true,
+        "buttonText": "🔗 مطالعه منبع اصلی",
+        "templatePattern": "{headerEmoji} <b>{title}</b>\n\n{content}\n\n{hashtags}\n\n{signature}"
+      },
+      "filters": {
+        "blacklistWords": [
+          "casino",
+          "betting",
+          "شرط‌بندی",
+          "کازینو",
+          "قمار",
+          "اسپانسری",
+          "promoted",
+          "sponsor"
+        ],
+        "replacementWords": [
+          {
+            "from": "AI",
+            "to": "هوش مصنوعی"
+          },
+          {
+            "from": "ChatGPT",
+            "to": "چت‌جی‌پی‌تی"
+          },
+          {
+            "from": "Crypto",
+            "to": "رمزارز"
+          }
+        ],
+        "whitelistWords": [],
+        "requireWhitelist": false,
+        "minContentLength": 40,
+        "filterSpam": true
+      },
+      "history": [
+        {
+          "id": "hist-1791984380569-c56o",
+          "sourceName": "تریدینگ‌ویو (TradingView Ideas)",
+          "sourceUrl": "https://www.tradingview.com/chart/ETHUSD/vr5STCdW-ETHUSD-ICT-Order-Block-Fibonacci-OTE-Market-Structure/",
+          "originalTitle": "ETHUSD ICT Order Block, Fibonacci OTE &amp; Market Structure",
+          "translatedTitle": "تحلیل اتریوم (ETHUSD)؛ ستاپ صعودی ICT در محدوده طلایی فیبوناچی",
+          "contentPreview": "🟢 سناریوی لانگ اتریوم (ETH/USD) | دیدگاه اسمارت‌مانی\n\nچارت اتریوم یک موقعیت بالقوه ادامه‌دهنده صعودی رو بر اساس ستاپ‌های سبک ICT نشون میده....",
+          "publishedAt": "2026-10-14T13:26:20.569Z",
+          "status": "published",
+          "telegramMessageId": 6058,
+          "telegramChatId": "@Fxbours"
+        },
+        {
+          "id": "hist-1791984230170-awen",
+          "sourceName": "تریدینگ‌ویو (TradingView Ideas)",
+          "sourceUrl": "https://www.tradingview.com/chart/BTCUSDT/vKOxezyy-Repeated-Supply-Rejections-Put-Bitcoin-s-Local-Support-in-Focus/",
+          "originalTitle": "Repeated Supply Rejections Put Bitcoin’s Local Support in Focus",
+          "translatedTitle": "تحلیل بیت‌کوین (BTC): ناکامی مجدد در شکست مقاومت و خطر ریزش",
+          "contentPreview": "سلام به همه تریدرها! 📉\n\nنگاهی به نمودار ۱ ساعته BTCUSDT نشان می‌دهد که قیمت درگیر ساختار نزولی زیر خط مقاومت اصلی است. شاهد بودیم که قیمت چ...",
+          "publishedAt": "2026-10-14T13:23:50.170Z",
+          "status": "published",
+          "telegramMessageId": 6057,
+          "telegramChatId": "@Fxbours"
+        },
+        {
+          "id": "hist-1791983272314-5z9l",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/tech/1010780/alexa-tablet-12-pro-review",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "توقف توسعه عینک واقعیت افزوده اپل؛ تمرکز کوپرتینویی‌ها بر محصولات دیگر",
+          "contentPreview": "گزارش‌های تازه منتشر شده از سوی وب‌سایت «ورج» (The Verge) حاکی از آن است که اپل روند توسعه عینک هوشمند واقعیت افزوده خود را متوقف کرده است. ...",
+          "publishedAt": "2026-10-14T13:07:52.314Z",
+          "status": "published",
+          "telegramMessageId": 6056,
+          "telegramChatId": "@Fxbours"
+        },
+        {
+          "id": "hist-1791983259567-i7w3",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/games/1010101/zelda-ocarina-of-time-remake-switch-2-preview-hands-on",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "تغییر استراتژی OpenAI: تمرکز بر مدل‌های استدلال‌گر پیشرفته",
+          "contentPreview": "شرکت Openهوش مصنوعی در راستای تقویت توانمندی‌های هوش مصنوعی خود، رویکرد جدیدی را در توسعه مدل‌های زبانی پیش گرفته است. تمرکز اصلی این شرکت ا...",
+          "publishedAt": "2026-10-14T13:07:39.567Z",
+          "status": "published",
+          "telegramMessageId": 6055,
+          "telegramChatId": "@Fxbours"
+        },
+        {
+          "id": "hist-1791983184400-0y6j",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "تحول بزرگ در دنیای هوش مصنوعی: معرفی قابلیت‌های جدید و پیشرفته",
+          "contentPreview": "در تازه‌ترین گزارش منتشر شده از سوی وب‌سایت The Verge، جزئیات مهمی پیرامون پیشرفت‌های اخیر در حوزه ه",
+          "publishedAt": "2026-10-14T13:06:24.400Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983176210-o4vk",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/news/1010424/yandex-drone-strike-outage-disinformation-zelenskyy",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "تغییر استراتژی OpenAI: آغاز تحولی جدید در دنیای هوش مصنوعی",
+          "contentPreview": "شرکت Openهوش مصنوعی به تازگی در یک تغییر استراتژیک، مسیر توسعه محصولات خود را بازنگری کرده است. این ",
+          "publishedAt": "2026-10-14T13:06:16.211Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983167081-hiqx",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/gadgets/1010384/nothing-headphone-a-charli-xcx-deal-sale",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "خطا در دریافت متن خبر",
+          "contentPreview": "متن ارسالی به درستی بارگذاری نشده و به صورت «[object Object]» دریافت شده است. لطفاً متن کامل خبر و ع",
+          "publishedAt": "2026-10-14T13:06:07.081Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983136397-ytwt",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "تغییرات اساسی در رابط کاربری و عملکرد اپلیکیشن‌های گوگل با به‌روزرسانی‌های جدید",
+          "contentPreview": "شرکت گوگل در تازه‌ترین اقدام خود، مجموعه‌ای از به‌روزرسانی‌های کاربردی را برای اپلیکیشن‌های خود منتش",
+          "publishedAt": "2026-10-14T13:05:36.397Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983132447-9v8j",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "مایکروسافت قابلیت‌های هوش مصنوعی کوپایلوت را در ویندوز ۱۱ گسترش می‌دهد",
+          "contentPreview": "مایکروسافت در جدیدترین به‌روزرسانی خود برای ویندوز ۱۱، قابلیت‌های دستیار هوش مصنوعی «کوپایلوت» (Copi",
+          "publishedAt": "2026-10-14T13:05:32.447Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983129287-p5dw",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "مایکروسافت ابزارهای جدید هوش مصنوعی را برای تحول در محیط‌های کاری معرفی کرد",
+          "contentPreview": "مایکروسافت در تازه‌ترین اقدام خود، مجموعه‌ای از قابلیت‌های پیشرفته مبتنی بر هوش مصنوعی را برای پلتفر",
+          "publishedAt": "2026-10-14T13:05:29.287Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983122896-qrfy",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "سامسونگ تولید انبوه تراشه‌های حافظه HBM3E دوازده‌لایه را آغاز کرد",
+          "contentPreview": "شرکت سامسونگ الکترونیکس رسماً از آغاز تولید انبوه تراشه‌های حافظه HBM3E با ظرفیت دوازده لایه خبر داد",
+          "publishedAt": "2026-10-14T13:05:22.896Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791983101789-st5e",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "خطا در دریافت محتوا: داده ورودی نامعتبر است",
+          "contentPreview": "متأسفانه ورودی ارسال‌شده حاوی متن واقعی مقاله نیست و مقدار «[object Object]» دریافت شده است. این مشک",
+          "publishedAt": "2026-10-14T13:05:01.789Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791982965288-xl8r",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/tech/1010906/fairphone-fairbuds-2-price-release-audio-repairability",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "توقف تولید هدست واقعیت مجازی «ویژن پرو» اپل در پایان سال جاری",
+          "contentPreview": "گزارش‌های تازه حاکی از آن است که شرکت اپل تولید مدل فعلی هدست واقعیت ترکیبی «ویژن پرو» (Vision Pro) ",
+          "publishedAt": "2026-10-14T13:02:45.288Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        },
+        {
+          "id": "hist-1791982959311-z3rq",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/transportation/1010694/tesla-roadster-reveal-vaporware-spacex-elon-musk",
+          "originalTitle": "[object Object]",
+          "translatedTitle": "مایکروسافت در حال توسعه هوش مصنوعی اختصاصی برای کنسول‌های ایکس‌باکس است",
+          "contentPreview": "گزارش‌های جدید از «The Verge» حاکی از آن است که مایکروسافت در حال کار بر روی قابلیت‌های هوش مصنوعی ا",
+          "publishedAt": "2026-10-14T13:02:39.311Z",
+          "status": "failed",
+          "error": "Forbidden: bot is not a member of the channel chat"
+        }
+      ],
+      "processedGuids": [
+        "https://www.theverge.com/?p=1010694",
+        "https://www.theverge.com/?p=1010906",
+        "https://www.theverge.com/?p=1010561",
+        "https://www.theverge.com/?p=1010642",
+        "https://www.theverge.com/?p=1010619",
+        "https://www.theverge.com/?p=1010365",
+        "https://www.theverge.com/?p=1010406",
+        "https://www.theverge.com/?p=1010384",
+        "https://www.theverge.com/?p=1010424",
+        "https://www.theverge.com/?p=1010050",
+        "https://www.theverge.com/?p=1010101",
+        "https://www.theverge.com/?p=1010780",
+        "https://www.tradingview.com/chart/BTCUSDT/vKOxezyy-Repeated-Supply-Rejections-Put-Bitcoin-s-Local-Support-in-Focus/",
+        "https://www.tradingview.com/chart/ETHUSD/vr5STCdW-ETHUSD-ICT-Order-Block-Fibonacci-OTE-Market-Structure/"
+      ]
+    },
+    {
+      "id": "bot-1791984898978",
+      "name": "ربات ۲: اخبار فناوری و هوش مصنوعی",
+      "purpose": "پوشش اخبار دنیای تکنولوژی و هوش مصنوعی",
+      "color": "sky",
+      "telegram": {
+        "botToken": "",
+        "channelId": "",
+        "botName": "",
+        "botUsername": "",
+        "channelTitle": "",
+        "channelUsername": "",
+        "isValidated": false,
+        "canPost": false,
+        "lastChecked": null
+      },
+      "scheduler": {
+        "enabled": false,
+        "mode": "interval",
+        "intervalMinutes": 60,
+        "specificHours": [
+          "09:00",
+          "13:00",
+          "17:00",
+          "21:00"
+        ],
+        "maxPostsPerRun": 2,
+        "lastRunTime": null,
+        "nextRunTime": null
+      },
+      "sources": [
+        {
+          "id": "src-1791984898978-1",
+          "name": "TechCrunch News",
+          "url": "https://techcrunch.com/feed/",
+          "category": "فناوری و استارتاپ",
+          "enabled": true,
+          "lastFetched": null,
+          "fetchCount": 0
+        },
+        {
+          "id": "src-1791984898978-2",
+          "name": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "category": "تکنولوژی و گجت",
+          "enabled": true,
+          "lastFetched": null,
+          "fetchCount": 0
+        }
+      ],
+      "template": {
+        "tone": "journalistic",
+        "headerEmoji": "⚡️",
+        "showTitle": true,
+        "showSummary": true,
+        "showSourceLink": true,
+        "showDate": true,
+        "showHashtags": true,
+        "customSignature": "🆔 @your_channel_name\n🤖 تهیه شده توسط ادمین خودکار TeleAdmin",
+        "formatMode": "HTML",
+        "postWithImage": true,
+        "buttonText": "🔗 مطالعه منبع اصلی",
+        "templatePattern": "{headerEmoji} <b>{title}</b>\n\n{content}\n\n{hashtags}\n\n{signature}"
+      },
+      "filters": {
+        "blacklistWords": [
+          "casino",
+          "betting",
+          "شرط‌بندی",
+          "کازینو",
+          "قمار",
+          "اسپانسری",
+          "promoted",
+          "sponsor"
+        ],
+        "replacementWords": [
+          {
+            "from": "AI",
+            "to": "هوش مصنوعی"
+          },
+          {
+            "from": "ChatGPT",
+            "to": "چت‌جی‌پی‌تی"
+          },
+          {
+            "from": "Crypto",
+            "to": "رمزارز"
+          }
+        ],
+        "whitelistWords": [],
+        "requireWhitelist": false,
+        "minContentLength": 40,
+        "filterSpam": true
+      },
+      "history": [],
+      "processedGuids": []
+    }
+  ]
+}

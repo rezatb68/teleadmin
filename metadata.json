@@ -1,0 +1,6 @@
+{
+  "name": "TeleAdmin AI - ربات ادمین خودکار کانال تلگرام",
+  "description": "پلتفرم ادمین هوشمند و خودکار کانال‌های تلگرام با دریافت دیتا از منابع خبری، ترجمه و پردازش هوش مصنوعی، فیلتر کلمات، استایل‌بندی پست‌ها و زمانبندی انتشار خودکار",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
